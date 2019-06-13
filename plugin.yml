@@ -1,0 +1,5 @@
+main: com.yooogle.corelib.Main
+name: CoreLib
+description: The core lib of all the Hypernet custom plugins.
+author: Yooogle
+version: 0.0.1
