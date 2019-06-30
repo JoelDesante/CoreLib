@@ -1,5 +1,7 @@
 package com.yooogle.corelib.utils;
 
+import net.md_5.bungee.api.ChatColor;
+
 public class Utils {
 	
 	// --------------------------------------------------------------------------------
@@ -235,6 +237,15 @@ public class Utils {
 		
 		return false;
 		
+	}
+	
+	/**
+	 * 
+	 * @param string - The string you want to colorize.
+	 * @return Colorized string.
+	 */
+	public String color(String string) {
+		return ChatColor.translateAlternateColorCodes('&', string);
 	}
 
 }
