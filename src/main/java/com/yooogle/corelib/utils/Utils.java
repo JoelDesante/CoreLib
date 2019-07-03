@@ -244,7 +244,7 @@ public class Utils {
 	 * @param string - The string you want to colorize.
 	 * @return Colorized string.
 	 */
-	public String color(String string) {
+	public static String color(String string) {
 		return ChatColor.translateAlternateColorCodes('&', string);
 	}
 
